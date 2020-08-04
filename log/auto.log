@@ -1,0 +1,671 @@
+2019-11-26 10:33:43,034 - INFO: start to excute automation cases
+2019-11-26 10:33:43,538 - INFO: init base api interface
+2019-11-26 10:33:43,538 - INFO: init member managment API
+2019-11-26 10:33:43,538 - DEBUG: json_object{'req': {'userid': 'liebaowu', 'name': '猎豹五', 'alias': 'liebao', 'mobile': '16813215425', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaowu@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-26 10:33:43,539 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-26 10:33:43,539 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-26 10:33:43,544 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:33:44,366 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-26 10:33:44,368 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-26 10:33:44,369 - DEBUG: para:{'access_token': 'MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA'}
+2019-11-26 10:33:44,372 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:33:44,855 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA HTTP/1.1" 200 32
+2019-11-26 10:33:44,857 - DEBUG: {'errcode': 0, 'errmsg': 'created'}
+2019-11-26 10:33:44,857 - DEBUG: {'errcode': 0, 'errmsg': 'created'}
+2019-11-26 10:35:14,801 - INFO: start to excute automation cases
+2019-11-26 10:35:15,326 - INFO: init base api interface
+2019-11-26 10:35:15,326 - INFO: init member managment API
+2019-11-26 10:35:15,327 - DEBUG: json_object{'req': {'userid': 'liebaoliu', 'name': '猎豹六', 'alias': 'liebao', 'mobile': '16813215426', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoliu@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-26 10:35:15,327 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-26 10:35:15,327 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-26 10:35:15,335 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:35:16,201 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-26 10:35:16,203 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-26 10:35:16,203 - DEBUG: para:{'access_token': 'MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA'}
+2019-11-26 10:35:16,207 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:35:16,713 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA HTTP/1.1" 200 32
+2019-11-26 10:35:16,715 - DEBUG: 预期结果:
+2019-11-26 10:35:16,715 - DEBUG: 实际结果:
+2019-11-26 10:36:59,583 - INFO: start to excute automation cases
+2019-11-26 10:37:00,086 - INFO: init base api interface
+2019-11-26 10:37:00,086 - INFO: init member managment API
+2019-11-26 10:37:00,087 - DEBUG: json_object{'req': {'userid': 'liebaoqi', 'name': '猎豹七', 'alias': 'liebao', 'mobile': '16813215427', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoqi@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-26 10:37:00,087 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-26 10:37:00,087 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-26 10:37:00,093 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:37:01,142 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-26 10:37:01,144 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-26 10:37:01,144 - DEBUG: para:{'access_token': 'MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA'}
+2019-11-26 10:37:01,147 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:37:01,725 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA HTTP/1.1" 200 32
+2019-11-26 10:37:33,005 - INFO: start to excute automation cases
+2019-11-26 10:37:33,502 - INFO: init base api interface
+2019-11-26 10:37:33,502 - INFO: init member managment API
+2019-11-26 10:37:33,502 - DEBUG: json_object{'req': {'userid': 'liebaoqi', 'name': '猎豹七', 'alias': 'liebao', 'mobile': '16813215427', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoqi@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-26 10:37:33,503 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-26 10:37:33,503 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-26 10:37:33,507 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:37:34,353 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-26 10:37:34,355 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-26 10:37:34,355 - DEBUG: para:{'access_token': 'MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA'}
+2019-11-26 10:37:34,359 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:37:34,695 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA HTTP/1.1" 200 52
+2019-11-26 10:37:34,697 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-26 10:37:34,698 - DEBUG: 实际结果:{'errcode': 60104, 'errmsg': 'mobile existed:liebaoqi'}
+2019-11-26 10:38:13,234 - INFO: start to excute automation cases
+2019-11-26 10:38:13,671 - INFO: init base api interface
+2019-11-26 10:38:13,671 - INFO: init member managment API
+2019-11-26 10:38:13,672 - DEBUG: json_object{'req': {'userid': 'liebaoqi', 'name': '猎豹七', 'alias': 'liebao', 'mobile': '16713215427', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoqi@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-26 10:38:13,672 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-26 10:38:13,672 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-26 10:38:13,678 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:38:14,506 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-26 10:38:14,507 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-26 10:38:14,508 - DEBUG: para:{'access_token': 'MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA'}
+2019-11-26 10:38:14,511 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:38:14,816 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA HTTP/1.1" 200 192
+2019-11-26 10:38:14,818 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-26 10:38:14,818 - DEBUG: 实际结果:{'errcode': 60102, 'errmsg': 'userid existed, hint: [1574735895_56_58484d795e08954437226cd8000dab99], from ip: 222.222.126.53, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2019-11-26 10:39:43,632 - INFO: start to excute automation cases
+2019-11-26 10:39:44,059 - INFO: init base api interface
+2019-11-26 10:39:44,059 - INFO: init member managment API
+2019-11-26 10:39:44,060 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215428', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-26 10:39:44,060 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-26 10:39:44,060 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-26 10:39:44,066 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:39:45,087 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-26 10:39:45,090 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-26 10:39:45,090 - DEBUG: para:{'access_token': 'MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA'}
+2019-11-26 10:39:45,093 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 10:39:47,341 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=MPolAhgNAKXwdfG-PzhiKqVPYK_xtNbhGueS2ozZDqeLOTH0YLOXRR8xLnb0Jmi8ngtBfBeA2Ti7t12vwyfQ3TYg4UVG0-pPFBDCOG6dVzBSGQxJu6mob2yyea5cQRWwInY37XbH1rGXjGEpS7iGTD_oT1K4I8xhGKlozX7aAQKyOujS37jQ-SGA3h1M3nYnHI580iPgSRIh3fsX2dhrNA HTTP/1.1" 200 32
+2019-11-26 10:39:47,343 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-26 10:39:47,343 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+
+2019-11-26 17:49:19,045 - INFO: start to excute automation cases
+2019-11-26 17:52:11,170 - INFO: start to excute automation cases
+2019-11-26 17:53:30,355 - INFO: start to excute automation cases
+2019-11-26 17:53:30,774 - WARNING: ../../cfg/auto.cfg --file is not exist!!!
+2019-11-26 17:53:30,787 - INFO: init base api interface
+2019-11-26 17:55:24,033 - INFO: start to excute automation cases
+2019-11-26 17:55:24,437 - WARNING: ../../cfg/auto.cfg --file is not exist!!!
+2019-11-26 17:55:24,452 - INFO: init base api interface
+2019-11-26 17:58:17,199 - INFO: start to excute automation cases
+2019-11-26 17:58:17,618 - WARNING: ../../cfg/auto.cfg --file is not exist!!!
+2019-11-26 17:58:17,631 - INFO: init base api interface
+2019-11-26 18:00:47,604 - INFO: start to excute automation cases
+2019-11-26 18:00:48,040 - WARNING: ../../cfg/auto.cfg --file is not exist!!!
+2019-11-26 18:00:48,053 - INFO: init base api interface
+2019-11-26 18:10:55,424 - INFO: start to excute automation cases
+2019-11-26 18:10:55,829 - INFO: init base api interface
+2019-11-26 18:10:55,829 - INFO: init member managment API
+2019-11-26 18:10:55,871 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215428', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-26 18:10:55,871 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-26 18:10:55,871 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-26 18:10:55,877 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 18:10:56,746 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-26 18:10:56,748 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-26 18:10:56,748 - DEBUG: para:{'access_token': 'lx70nfw4juFm3Bx15F8oUrzS4DkswkfyTcECXxj-9gxQERZCO39KpwRt7wPPOrmRpCltZpxhRYjQR3MZMQo-CDbnkDCRsJBM8io881g_xiralOShw3S0oZv86bDGSzQysbo_Rqp7saSjn5yDdvXinTQFiILeT8M4lvZR2ziKZMRwYgxoNDD8pKH6UJPWIgpbJsHla2v0E7o0PdrfZhB2Tg'}
+2019-11-26 18:10:56,752 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-26 18:10:57,103 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=lx70nfw4juFm3Bx15F8oUrzS4DkswkfyTcECXxj-9gxQERZCO39KpwRt7wPPOrmRpCltZpxhRYjQR3MZMQo-CDbnkDCRsJBM8io881g_xiralOShw3S0oZv86bDGSzQysbo_Rqp7saSjn5yDdvXinTQFiILeT8M4lvZR2ziKZMRwYgxoNDD8pKH6UJPWIgpbJsHla2v0E7o0PdrfZhB2Tg HTTP/1.1" 200 52
+2019-11-26 18:10:57,105 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-26 18:10:57,105 - DEBUG: 实际结果:{'errcode': 60104, 'errmsg': 'mobile existed:liebaoba'}
+2019-11-27 16:47:47,344 - INFO: start to excute automation cases
+2019-11-27 16:47:48,642 - INFO: init base api interface
+2019-11-27 16:47:48,643 - INFO: init member managment API
+2019-11-27 16:47:48,653 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215428', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-27 16:47:48,653 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-27 16:47:48,653 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-27 16:47:48,659 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-27 16:47:49,817 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-27 16:47:49,820 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-27 16:47:49,820 - DEBUG: para:{'access_token': 'OEMCA12j_LaiPuCVkKoQrr1oBk1CRYVIrvx1k7b-P9PEI31UdzgRK2bu3IlR_6thAn7NICre5QOiyJNtgULeFoim70xqFZcRpBxrcST0uG_WodYAmAvBpFyeFwJRWJTx9lsWbK6KJKZBDT_snJK2Fq4xkQ1Z0ywaEHKqSvyj8HMhFhWB1pgmwUBjsJ11xg6sARW8wEdTX9iVdDOZY00jFA'}
+2019-11-27 16:47:49,824 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-27 16:47:50,211 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=OEMCA12j_LaiPuCVkKoQrr1oBk1CRYVIrvx1k7b-P9PEI31UdzgRK2bu3IlR_6thAn7NICre5QOiyJNtgULeFoim70xqFZcRpBxrcST0uG_WodYAmAvBpFyeFwJRWJTx9lsWbK6KJKZBDT_snJK2Fq4xkQ1Z0ywaEHKqSvyj8HMhFhWB1pgmwUBjsJ11xg6sARW8wEdTX9iVdDOZY00jFA HTTP/1.1" 200 52
+2019-11-27 16:47:50,212 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-27 16:47:50,213 - DEBUG: 实际结果:{'errcode': 60104, 'errmsg': 'mobile existed:liebaoba'}
+2019-11-27 16:48:58,768 - INFO: start to excute automation cases
+2019-11-27 16:48:59,203 - INFO: init base api interface
+2019-11-27 16:48:59,204 - INFO: init member managment API
+2019-11-27 16:48:59,204 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-27 16:48:59,205 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-27 16:48:59,205 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-27 16:48:59,211 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-27 16:49:00,089 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-27 16:49:00,091 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-27 16:49:00,092 - DEBUG: para:{'access_token': 'OEMCA12j_LaiPuCVkKoQrr1oBk1CRYVIrvx1k7b-P9PEI31UdzgRK2bu3IlR_6thAn7NICre5QOiyJNtgULeFoim70xqFZcRpBxrcST0uG_WodYAmAvBpFyeFwJRWJTx9lsWbK6KJKZBDT_snJK2Fq4xkQ1Z0ywaEHKqSvyj8HMhFhWB1pgmwUBjsJ11xg6sARW8wEdTX9iVdDOZY00jFA'}
+2019-11-27 16:49:00,095 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-27 16:49:00,982 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=OEMCA12j_LaiPuCVkKoQrr1oBk1CRYVIrvx1k7b-P9PEI31UdzgRK2bu3IlR_6thAn7NICre5QOiyJNtgULeFoim70xqFZcRpBxrcST0uG_WodYAmAvBpFyeFwJRWJTx9lsWbK6KJKZBDT_snJK2Fq4xkQ1Z0ywaEHKqSvyj8HMhFhWB1pgmwUBjsJ11xg6sARW8wEdTX9iVdDOZY00jFA HTTP/1.1" 200 192
+2019-11-27 16:49:00,984 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-27 16:49:00,984 - DEBUG: 实际结果:{'errcode': 60102, 'errmsg': 'userid existed, hint: [1574844542_53_f23d9ecbc7975efbd5a667b46a9b32da], from ip: 222.222.126.53, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2019-11-27 17:31:34,037 - INFO: start to excute automation cases
+2019-11-27 17:31:34,538 - WARNING: ../../cfg/auto.cfg --file is not exist!!!
+2019-11-27 17:31:34,550 - INFO: init base api interface
+2019-11-27 17:33:26,847 - INFO: start to excute automation cases
+2019-11-27 17:33:27,287 - WARNING: ../../cfg/auto.cfg --file is not exist!!!
+2019-11-27 17:33:27,299 - INFO: init base api interface
+2019-11-27 17:35:40,324 - INFO: start to excute automation cases
+2019-11-27 17:35:40,830 - WARNING: ../../cfg/auto.cfg --file is not exist!!!
+2019-11-27 17:35:40,844 - INFO: init base api interface
+2019-11-28 09:07:02,238 - INFO: start to excute automation cases
+2019-11-28 09:07:02,836 - INFO: init base api interface
+2019-11-28 09:07:02,837 - INFO: init member managment API
+2019-11-28 09:07:02,861 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:10:25,087 - INFO: start to excute automation cases
+2019-11-28 09:10:25,593 - INFO: init base api interface
+2019-11-28 09:10:25,593 - INFO: init member managment API
+2019-11-28 09:11:39,958 - INFO: start to excute automation cases
+2019-11-28 09:11:40,456 - INFO: init base api interface
+2019-11-28 09:11:40,456 - INFO: init member managment API
+2019-11-28 09:11:40,457 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:12:56,948 - INFO: start to excute automation cases
+2019-11-28 09:12:57,431 - INFO: init base api interface
+2019-11-28 09:12:57,431 - INFO: init member managment API
+2019-11-28 09:12:57,432 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:13:59,154 - INFO: start to excute automation cases
+2019-11-28 09:13:59,591 - INFO: init base api interface
+2019-11-28 09:13:59,591 - INFO: init member managment API
+2019-11-28 09:13:59,592 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:19:46,041 - INFO: start to excute automation cases
+2019-11-28 09:19:46,488 - INFO: init base api interface
+2019-11-28 09:19:46,488 - INFO: init member managment API
+2019-11-28 09:19:46,489 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:41:23,081 - INFO: start to excute automation cases
+2019-11-28 09:41:23,524 - INFO: init base api interface
+2019-11-28 09:41:23,524 - INFO: init member managment API
+2019-11-28 09:41:23,525 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:42:02,419 - INFO: start to excute automation cases
+2019-11-28 09:42:02,859 - INFO: init base api interface
+2019-11-28 09:42:02,859 - INFO: init member managment API
+2019-11-28 09:42:02,860 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:46:39,953 - INFO: start to excute automation cases
+2019-11-28 09:46:40,763 - INFO: init base api interface
+2019-11-28 09:46:40,763 - INFO: init member managment API
+2019-11-28 09:46:40,765 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:47:05,233 - INFO: start to excute automation cases
+2019-11-28 09:47:05,753 - INFO: init base api interface
+2019-11-28 09:47:05,753 - INFO: init member managment API
+2019-11-28 09:47:05,754 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:48:02,795 - INFO: start to excute automation cases
+2019-11-28 09:48:03,348 - INFO: init base api interface
+2019-11-28 09:48:03,348 - INFO: init member managment API
+2019-11-28 09:48:03,349 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:49:47,749 - INFO: start to excute automation cases
+2019-11-28 09:49:48,227 - INFO: init base api interface
+2019-11-28 09:49:48,227 - INFO: init member managment API
+2019-11-28 09:49:48,228 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:50:01,853 - INFO: start to excute automation cases
+2019-11-28 09:50:02,357 - INFO: init base api interface
+2019-11-28 09:50:02,357 - INFO: init member managment API
+2019-11-28 09:50:02,358 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:50:02,358 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 09:50:02,358 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 09:50:02,364 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 09:50:03,218 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 09:50:03,220 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 09:50:03,221 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 09:50:03,224 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 09:50:03,733 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 192
+2019-11-28 09:50:03,735 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 09:50:03,736 - DEBUG: 实际结果:{'errcode': 60102, 'errmsg': 'userid existed, hint: [1574905805_56_c1502466d0a35c3069883d192a89426a], from ip: 222.222.126.53, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2019-11-28 09:51:55,075 - INFO: start to excute automation cases
+2019-11-28 09:51:55,577 - INFO: init base api interface
+2019-11-28 09:51:55,577 - INFO: init member managment API
+2019-11-28 09:51:55,578 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 4], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:51:55,578 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 09:51:55,579 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 09:51:55,584 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 09:51:56,472 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 09:51:56,474 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 09:51:56,474 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 09:51:56,478 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 09:51:56,798 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 192
+2019-11-28 09:51:56,800 - DEBUG: None_20191128095155
+2019-11-28 09:51:56,800 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 09:51:56,800 - DEBUG: 实际结果:{'errcode': 60102, 'errmsg': 'userid existed, hint: [1574905918_56_e22df67afae0446f86ef6096710b1a3a], from ip: 222.222.126.53, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2019-11-28 09:55:15,281 - INFO: start to excute automation cases
+2019-11-28 09:55:15,756 - INFO: init base api interface
+2019-11-28 09:55:15,756 - INFO: init member managment API
+2019-11-28 09:55:15,757 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 09:55:15,838 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 09:55:15,838 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 09:55:15,844 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 09:55:16,694 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 09:55:16,696 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 09:55:16,696 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 09:55:16,700 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 09:55:17,054 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 192
+2019-11-28 09:55:17,066 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 09:55:17,066 - DEBUG: 实际结果:{'errcode': 60102, 'errmsg': 'userid existed, hint: [1574906119_53_d7b0e535b922b733c0a3e30b9217a0c7], from ip: 222.222.126.53, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2019-11-28 11:18:20,694 - INFO: start to excute automation cases
+2019-11-28 11:18:21,507 - INFO: init base api interface
+2019-11-28 11:18:21,508 - INFO: init member managment API
+2019-11-28 11:18:21,509 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:19:42,646 - DEBUG: <class 'dict'>
+2019-11-28 11:23:12,095 - INFO: start to excute automation cases
+2019-11-28 11:23:12,923 - INFO: init base api interface
+2019-11-28 11:23:12,924 - INFO: init member managment API
+2019-11-28 11:23:12,925 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:24:22,098 - INFO: start to excute automation cases
+2019-11-28 11:24:22,894 - INFO: init base api interface
+2019-11-28 11:24:22,894 - INFO: init member managment API
+2019-11-28 11:24:22,896 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:26:45,420 - INFO: start to excute automation cases
+2019-11-28 11:26:46,214 - INFO: init base api interface
+2019-11-28 11:26:46,215 - INFO: init member managment API
+2019-11-28 11:26:46,216 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:27:00,573 - INFO: start to excute automation cases
+2019-11-28 11:27:01,418 - INFO: init base api interface
+2019-11-28 11:27:01,419 - INFO: init member managment API
+2019-11-28 11:27:01,420 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:27:46,087 - INFO: start to excute automation cases
+2019-11-28 11:27:46,884 - INFO: init base api interface
+2019-11-28 11:27:46,884 - INFO: init member managment API
+2019-11-28 11:27:46,885 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:29:42,506 - INFO: start to excute automation cases
+2019-11-28 11:29:43,085 - INFO: init base api interface
+2019-11-28 11:29:43,085 - INFO: init member managment API
+2019-11-28 11:29:43,086 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:29:43,100 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 11:29:43,100 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 11:29:43,107 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:29:44,015 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 11:29:44,017 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 11:29:44,017 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 11:29:44,021 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:29:44,358 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 192
+2019-11-28 11:29:44,371 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 11:29:44,371 - DEBUG: 实际结果:{'errcode': 60102, 'errmsg': 'userid existed, hint: [1574911786_54_5b55c5edba05535ea220c8e4593e6fa9], from ip: 222.222.126.53, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2019-11-28 11:30:49,257 - INFO: start to excute automation cases
+2019-11-28 11:30:49,762 - INFO: init base api interface
+2019-11-28 11:30:49,762 - INFO: init member managment API
+2019-11-28 11:30:49,763 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:30:49,764 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 11:30:49,764 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 11:30:49,764 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 11:30:49,769 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:30:50,599 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 11:30:50,601 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 11:30:50,601 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 11:30:50,604 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:30:50,921 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 192
+2019-11-28 11:30:50,922 - DEBUG: 新的userid--liebaoba_20191128113049
+2019-11-28 11:30:50,923 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 11:30:50,923 - DEBUG: 实际结果:{'errcode': 60102, 'errmsg': 'userid existed, hint: [1574911852_56_4d1d6d67a2e29247fcceeb4ab27793c1], from ip: 222.222.126.53, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2019-11-28 11:31:51,497 - INFO: start to excute automation cases
+2019-11-28 11:31:52,024 - INFO: init base api interface
+2019-11-28 11:31:52,025 - INFO: init member managment API
+2019-11-28 11:31:52,025 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:31:52,026 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 11:31:52,026 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 11:31:52,026 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 11:31:52,032 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:31:52,888 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 11:31:52,890 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 11:31:52,891 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 11:31:52,894 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:31:53,193 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 192
+2019-11-28 11:31:53,195 - DEBUG: 新的userid--liebaoba_20191128113152
+2019-11-28 11:31:53,195 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 11:31:53,195 - DEBUG: 实际结果:{'errcode': 60102, 'errmsg': 'userid existed, hint: [1574911915_55_14f53808a173d79599c98f7d2ad073a2], from ip: 222.222.126.53, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2019-11-28 11:33:40,858 - INFO: start to excute automation cases
+2019-11-28 11:33:41,349 - INFO: init base api interface
+2019-11-28 11:33:41,349 - INFO: init member managment API
+2019-11-28 11:33:41,350 - DEBUG: json_object{'req': {'userid': 'liebaoba', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:33:41,350 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 11:33:41,350 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 11:33:41,350 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 11:33:41,356 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:33:42,186 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 11:33:42,188 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 11:33:42,188 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 11:33:42,190 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:33:42,481 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 192
+2019-11-28 11:33:42,483 - DEBUG: 新的userid--liebaoba
+2019-11-28 11:33:42,483 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 11:33:42,483 - DEBUG: 实际结果:{'errcode': 60102, 'errmsg': 'userid existed, hint: [1574912024_56_21a3744e6a806aafc79fadfdbbc800c7], from ip: 222.222.126.53, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2019-11-28 11:36:02,233 - INFO: start to excute automation cases
+2019-11-28 11:36:03,061 - INFO: init base api interface
+2019-11-28 11:36:03,062 - INFO: init member managment API
+2019-11-28 11:36:03,063 - DEBUG: json_object{'req': {'userid': 'xiaoai', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:36:03,064 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 11:37:40,523 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 11:37:41,425 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 11:37:42,939 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:37:44,031 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 11:37:51,668 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 11:37:52,373 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 11:38:00,286 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:38:00,620 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 59
+2019-11-28 11:38:35,124 - DEBUG: 新的userid--xiaoai
+2019-11-28 11:38:37,153 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 11:38:55,519 - DEBUG: 实际结果:{'errcode': 60106, 'errmsg': 'email existed in user:liebaoba'}
+2019-11-28 11:40:51,610 - INFO: start to excute automation cases
+2019-11-28 11:40:52,120 - INFO: init base api interface
+2019-11-28 11:40:52,120 - INFO: init member managment API
+2019-11-28 11:40:52,121 - DEBUG: json_object{'req': {'userid': 'xiaoai', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:40:52,122 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 11:40:52,122 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 11:40:52,122 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 11:40:52,128 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:40:52,955 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 11:40:52,957 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 11:40:52,957 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 11:40:52,960 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:40:53,343 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 59
+2019-11-28 11:40:53,345 - DEBUG: 新的userid--xiaoai
+2019-11-28 11:40:53,345 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 11:40:53,345 - DEBUG: 实际结果:{'errcode': 60106, 'errmsg': 'email existed in user:liebaoba'}
+2019-11-28 11:42:46,000 - INFO: start to excute automation cases
+2019-11-28 11:42:46,584 - INFO: init base api interface
+2019-11-28 11:42:46,584 - INFO: init member managment API
+2019-11-28 11:42:46,585 - DEBUG: json_object{'req': {'userid': 'xiaoai', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:42:46,586 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 11:42:46,586 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 11:42:46,586 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 11:42:46,593 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:42:47,557 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 11:42:47,559 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 11:42:47,559 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 11:42:47,563 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:42:47,984 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 32
+2019-11-28 11:42:47,986 - DEBUG: 新的userid--xiaoai_20191128114246
+2019-11-28 11:42:47,986 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 11:42:47,986 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 11:43:53,088 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 11:43:53,535 - INFO: init base api interface
+2019-11-28 11:43:53,535 - INFO: init member managment API
+2019-11-28 11:43:53,536 - DEBUG: json_object{'req': {'userid': 'xiaoai', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 11:43:53,536 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 11:43:53,536 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 11:43:53,536 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 11:43:53,542 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:43:54,384 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 11:43:54,385 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 11:43:54,385 - DEBUG: para:{'access_token': '9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g'}
+2019-11-28 11:43:54,388 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 11:43:54,818 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=9gcs0wul588OiuXW4tNP-8p_-U5COojFV8crHg9jWmpkwAdUBlbLKqTO_D1Dz-s7KOkqpU-gf6JlvyVUAqHHw44aKiO62cONftE3fj6liQCrz8q57niKHJ2hYOA6OcUVAqLXZ1e_MzE8aVtcObPMqbd3JoLabS980Ztkf1CGajEIEayL-gygxMpp3iNzCsVEfzD9GX9c3G_LnwRb0Rkj1g HTTP/1.1" 200 32
+2019-11-28 11:43:54,820 - DEBUG: 新的userid--xiaoai_20191128114353
+2019-11-28 11:43:54,820 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 11:43:54,820 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 14:59:01,644 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 14:59:02,133 - INFO: init base api interface
+2019-11-28 14:59:02,133 - INFO: init member managment API
+2019-11-28 14:59:02,134 - DEBUG: json_object{'req': {'userid': 'liebao', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 14:59:02,134 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 15:00:36,169 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 15:00:36,679 - INFO: init base api interface
+2019-11-28 15:00:36,679 - INFO: init member managment API
+2019-11-28 15:00:36,679 - DEBUG: json_object{'req': {'userid': 'liebao', 'name': '猎豹八', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 15:00:36,680 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 15:00:36,680 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 15:00:36,680 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 15:00:36,685 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 15:00:37,569 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 15:00:37,571 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 15:00:37,571 - DEBUG: para:{'access_token': 'BZRdmkwlo5I9AJyzjQjOt6oescqzYeSFXix17ERnyo2jVIhQYcAwyB1wAoccnf45Ql1Y_TMzpYOwP9K-YBKV0s11578m8Jg-y1pMuXjQMVYmtljGLQSYqcDibqXtHl32knAsuqLNM-MhHS3PQIJPE0wRX3AYWXyj8ffky9LusNOY2-Vh7A43vir-6qswuA9LWJxP1QFEF4p6AxLj2kPysw'}
+2019-11-28 15:00:37,573 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 15:00:38,050 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=BZRdmkwlo5I9AJyzjQjOt6oescqzYeSFXix17ERnyo2jVIhQYcAwyB1wAoccnf45Ql1Y_TMzpYOwP9K-YBKV0s11578m8Jg-y1pMuXjQMVYmtljGLQSYqcDibqXtHl32knAsuqLNM-MhHS3PQIJPE0wRX3AYWXyj8ffky9LusNOY2-Vh7A43vir-6qswuA9LWJxP1QFEF4p6AxLj2kPysw HTTP/1.1" 200 32
+2019-11-28 15:00:38,052 - DEBUG: 新的userid--liebao_20191128150036
+2019-11-28 15:00:38,052 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 15:00:38,052 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 15:01:19,991 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 15:01:20,467 - INFO: init base api interface
+2019-11-28 15:01:20,467 - INFO: init member managment API
+2019-11-28 15:01:20,467 - DEBUG: json_object{'req': {'userid': 'liebao', 'name': '猎豹', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 15:01:20,468 - DEBUG: email后缀--:gzdev2.com
+2019-11-28 15:01:20,468 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 15:01:20,469 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 15:01:20,476 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 15:01:21,397 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 15:01:21,400 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 15:01:21,400 - DEBUG: para:{'access_token': 'BZRdmkwlo5I9AJyzjQjOt6oescqzYeSFXix17ERnyo2jVIhQYcAwyB1wAoccnf45Ql1Y_TMzpYOwP9K-YBKV0s11578m8Jg-y1pMuXjQMVYmtljGLQSYqcDibqXtHl32knAsuqLNM-MhHS3PQIJPE0wRX3AYWXyj8ffky9LusNOY2-Vh7A43vir-6qswuA9LWJxP1QFEF4p6AxLj2kPysw'}
+2019-11-28 15:01:21,404 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 15:01:21,866 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=BZRdmkwlo5I9AJyzjQjOt6oescqzYeSFXix17ERnyo2jVIhQYcAwyB1wAoccnf45Ql1Y_TMzpYOwP9K-YBKV0s11578m8Jg-y1pMuXjQMVYmtljGLQSYqcDibqXtHl32knAsuqLNM-MhHS3PQIJPE0wRX3AYWXyj8ffky9LusNOY2-Vh7A43vir-6qswuA9LWJxP1QFEF4p6AxLj2kPysw HTTP/1.1" 200 32
+2019-11-28 15:01:21,868 - DEBUG: 新的userid--liebao_20191128150120
+2019-11-28 15:01:21,868 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 15:01:21,869 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 16:09:00,971 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 16:09:01,506 - INFO: init base api interface
+2019-11-28 16:09:01,506 - INFO: init member managment API
+2019-11-28 16:09:01,507 - DEBUG: json_object{'req': {'userid': 'liebao', 'name': '猎豹', 'alias': 'liebao', 'mobile': '16713215429', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'liebaoba@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}, 'res': {'errcode': 0, 'errmsg': 'created'}}
+2019-11-28 16:09:01,507 - DEBUG: -----email后缀--:gzdev2.com
+2019-11-28 16:09:01,508 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 16:09:01,508 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 16:09:01,514 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 16:09:02,553 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 16:09:02,556 - DEBUG: url:https://qyapi.weixin.qq.com/cgi-bin/user/create
+2019-11-28 16:09:02,556 - DEBUG: para:{'access_token': 'BZRdmkwlo5I9AJyzjQjOt6oescqzYeSFXix17ERnyo2jVIhQYcAwyB1wAoccnf45Ql1Y_TMzpYOwP9K-YBKV0s11578m8Jg-y1pMuXjQMVYmtljGLQSYqcDibqXtHl32knAsuqLNM-MhHS3PQIJPE0wRX3AYWXyj8ffky9LusNOY2-Vh7A43vir-6qswuA9LWJxP1QFEF4p6AxLj2kPysw'}
+2019-11-28 16:09:02,560 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 16:09:03,374 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=BZRdmkwlo5I9AJyzjQjOt6oescqzYeSFXix17ERnyo2jVIhQYcAwyB1wAoccnf45Ql1Y_TMzpYOwP9K-YBKV0s11578m8Jg-y1pMuXjQMVYmtljGLQSYqcDibqXtHl32knAsuqLNM-MhHS3PQIJPE0wRX3AYWXyj8ffky9LusNOY2-Vh7A43vir-6qswuA9LWJxP1QFEF4p6AxLj2kPysw HTTP/1.1" 200 32
+2019-11-28 16:09:03,376 - DEBUG: -----新的userid--liebao_20191128160901
+2019-11-28 16:09:03,376 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 16:09:03,376 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 16:53:25,930 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 16:53:26,409 - INFO: init base api interface
+2019-11-28 16:53:26,409 - INFO: init member managment API
+2019-11-28 16:53:26,410 - DEBUG: -----email后缀--:gzdev2.com
+2019-11-28 16:53:26,410 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 16:53:26,410 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 16:53:26,416 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 16:53:28,116 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 16:53:28,121 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 16:53:28,620 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=BZRdmkwlo5I9AJyzjQjOt6oescqzYeSFXix17ERnyo2jVIhQYcAwyB1wAoccnf45Ql1Y_TMzpYOwP9K-YBKV0s11578m8Jg-y1pMuXjQMVYmtljGLQSYqcDibqXtHl32knAsuqLNM-MhHS3PQIJPE0wRX3AYWXyj8ffky9LusNOY2-Vh7A43vir-6qswuA9LWJxP1QFEF4p6AxLj2kPysw HTTP/1.1" 200 32
+2019-11-28 16:53:28,622 - DEBUG: -----新的userid--：liebao_20191128165326
+2019-11-28 16:53:28,622 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 16:53:28,622 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 17:37:50,191 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 17:37:50,674 - INFO: init base api interface
+2019-11-28 17:37:50,675 - INFO: init member managment API
+2019-11-28 17:37:50,676 - INFO: -----email后缀--:gzdev2.com
+2019-11-28 17:37:50,676 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 17:37:50,676 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 17:37:50,682 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:37:51,580 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 17:37:51,586 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:37:52,071 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=Zg1PDojd9f3o-Af529LZ_Ooq2yDTb-5mcyizG6QwhulsAmqPEHtn_5n86LwvtegpaON72vu9H7kKX2G-BaJQMc_vbx1dFGYnLUlv-j_i0q-zOCPyJ8WNkKLviA-YtEnJY2RFnDElhLBZ6Swv399sYGvVZ9Z96caob6L6tBOfoOBZaZSCXoqqVSskoJ9Yaj0pnZw4jo_tSjqvIhgtKhhqIg HTTP/1.1" 200 32
+2019-11-28 17:37:52,073 - INFO: -----新的userid--：liebao_20191128173750
+2019-11-28 17:37:52,074 - DEBUG: 预期结果:{'userid': 'liebao_20191128173750', 'name': '猎豹赹', 'alias': 'liebao', 'mobile': '15713765345', 'department': [1, 21], 'order': [1, 4], 'position': '产品经理', 'gender': '1', 'email': 'J56gi@gzdev2.com', 'is_leader_in_dept': [1, 0], 'enable': 1, 'avatar_mediaid': '', 'telephone': '021-1223456', 'address': '广州市海珠区新港中路'}
+2019-11-28 17:37:52,074 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 17:38:56,613 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 17:38:57,166 - INFO: init base api interface
+2019-11-28 17:38:57,166 - INFO: init member managment API
+2019-11-28 17:38:57,167 - INFO: -----email后缀--:gzdev2.com
+2019-11-28 17:38:57,167 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 17:38:57,167 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 17:38:57,173 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:38:58,021 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 17:38:58,026 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:38:58,516 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=Zg1PDojd9f3o-Af529LZ_Ooq2yDTb-5mcyizG6QwhulsAmqPEHtn_5n86LwvtegpaON72vu9H7kKX2G-BaJQMc_vbx1dFGYnLUlv-j_i0q-zOCPyJ8WNkKLviA-YtEnJY2RFnDElhLBZ6Swv399sYGvVZ9Z96caob6L6tBOfoOBZaZSCXoqqVSskoJ9Yaj0pnZw4jo_tSjqvIhgtKhhqIg HTTP/1.1" 200 32
+2019-11-28 17:38:58,518 - INFO: -----新的userid--：liebao_20191128173857
+2019-11-28 17:40:40,487 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 17:40:40,994 - INFO: init base api interface
+2019-11-28 17:40:40,994 - INFO: init member managment API
+2019-11-28 17:40:40,995 - INFO: -----email后缀--:gzdev2.com
+2019-11-28 17:40:40,995 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 17:40:40,995 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 17:40:41,002 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:40:41,837 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 17:40:41,842 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:40:42,279 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=Zg1PDojd9f3o-Af529LZ_Ooq2yDTb-5mcyizG6QwhulsAmqPEHtn_5n86LwvtegpaON72vu9H7kKX2G-BaJQMc_vbx1dFGYnLUlv-j_i0q-zOCPyJ8WNkKLviA-YtEnJY2RFnDElhLBZ6Swv399sYGvVZ9Z96caob6L6tBOfoOBZaZSCXoqqVSskoJ9Yaj0pnZw4jo_tSjqvIhgtKhhqIg HTTP/1.1" 200 32
+2019-11-28 17:40:42,281 - INFO: -----新的userid--：liebao_20191128174040
+2019-11-28 17:40:42,282 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 17:40:42,282 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 17:57:41,788 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 17:57:42,297 - INFO: init base api interface
+2019-11-28 17:57:42,297 - INFO: init member managment API
+2019-11-28 17:57:42,298 - INFO: -----email后缀--:gzdev2.com
+2019-11-28 17:57:42,298 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 17:57:42,299 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 17:57:42,304 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:57:43,663 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 17:57:43,669 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:57:44,140 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=Zg1PDojd9f3o-Af529LZ_Ooq2yDTb-5mcyizG6QwhulsAmqPEHtn_5n86LwvtegpaON72vu9H7kKX2G-BaJQMc_vbx1dFGYnLUlv-j_i0q-zOCPyJ8WNkKLviA-YtEnJY2RFnDElhLBZ6Swv399sYGvVZ9Z96caob6L6tBOfoOBZaZSCXoqqVSskoJ9Yaj0pnZw4jo_tSjqvIhgtKhhqIg HTTP/1.1" 200 32
+2019-11-28 17:57:44,142 - INFO: -----新的userid--：liebao_20191128175742
+2019-11-28 17:57:44,142 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 17:57:44,143 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 17:59:48,917 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 17:59:49,441 - INFO: init base api interface
+2019-11-28 17:59:49,442 - INFO: init member managment API
+2019-11-28 17:59:49,443 - INFO: -----email后缀--:gzdev2.com
+2019-11-28 17:59:49,443 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 17:59:49,443 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 17:59:49,449 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:59:50,337 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 17:59:50,342 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 17:59:50,788 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=Zg1PDojd9f3o-Af529LZ_Ooq2yDTb-5mcyizG6QwhulsAmqPEHtn_5n86LwvtegpaON72vu9H7kKX2G-BaJQMc_vbx1dFGYnLUlv-j_i0q-zOCPyJ8WNkKLviA-YtEnJY2RFnDElhLBZ6Swv399sYGvVZ9Z96caob6L6tBOfoOBZaZSCXoqqVSskoJ9Yaj0pnZw4jo_tSjqvIhgtKhhqIg HTTP/1.1" 200 32
+2019-11-28 17:59:50,790 - INFO: -----新的userid--：liebao_20191128175949
+2019-11-28 17:59:50,791 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 17:59:50,791 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 17:59:50,791 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 17:59:50,791 - INFO: std_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 18:00:03,580 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-28 18:00:04,059 - INFO: init base api interface
+2019-11-28 18:00:04,060 - INFO: init member managment API
+2019-11-28 18:00:04,061 - INFO: -----email后缀--:gzdev2.com
+2019-11-28 18:00:04,061 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-28 18:00:04,061 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-28 18:00:04,068 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 18:00:05,004 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-28 18:00:05,009 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-28 18:00:06,219 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=Zg1PDojd9f3o-Af529LZ_Ooq2yDTb-5mcyizG6QwhulsAmqPEHtn_5n86LwvtegpaON72vu9H7kKX2G-BaJQMc_vbx1dFGYnLUlv-j_i0q-zOCPyJ8WNkKLviA-YtEnJY2RFnDElhLBZ6Swv399sYGvVZ9Z96caob6L6tBOfoOBZaZSCXoqqVSskoJ9Yaj0pnZw4jo_tSjqvIhgtKhhqIg HTTP/1.1" 200 32
+2019-11-28 18:00:06,221 - INFO: -----新的userid--：liebao_20191128180004
+2019-11-28 18:00:06,222 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'Created'}
+2019-11-28 18:00:06,222 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 18:00:06,222 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-28 18:00:06,222 - INFO: std_json:{'errcode': 0, 'errmsg': 'Created'}
+2019-11-29 17:28:56,552 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-29 17:28:57,071 - INFO: init base api interface
+2019-11-29 17:28:57,071 - INFO: init member managment API
+2019-11-29 17:28:57,072 - INFO: -----email后缀--:gzdev2.com
+2019-11-29 17:28:57,072 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-29 17:28:57,073 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-29 17:28:57,078 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:28:57,937 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-29 17:28:57,942 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:28:58,437 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=wC8mCTNG24Ex8_scq_Mp0m2JoZvnMpXnoVUluesNb3PwjSOUa1QPyLODAy5JlvZTMeqfiyyrekX5knqXCsuChuQTR0XQrmx1Jd7-DTITysB2FF4oLV7jar-72TAXqDcCwmU_o5KH5UuZrSZ38B8Yld0cdC4uaUldbzum_XL712veTafjCoOomz0k21lzFz1hO3ByR9etqS1ZjyO1M2He_w HTTP/1.1" 200 32
+2019-11-29 17:28:58,439 - INFO: -----新的userid--：liebao_20191129172857
+2019-11-29 17:28:58,440 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:28:58,440 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:28:58,440 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:28:58,440 - INFO: std_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:29:12,558 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-29 17:29:13,059 - INFO: init base api interface
+2019-11-29 17:29:13,059 - INFO: init member managment API
+2019-11-29 17:29:49,509 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-29 17:29:50,014 - INFO: init base api interface
+2019-11-29 17:29:50,014 - INFO: init member managment API
+2019-11-29 17:29:50,015 - INFO: -----email后缀--:gzdev2.com
+2019-11-29 17:29:50,015 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-29 17:29:50,015 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-29 17:29:50,021 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:29:50,880 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-29 17:29:50,886 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:29:51,343 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=wC8mCTNG24Ex8_scq_Mp0m2JoZvnMpXnoVUluesNb3PwjSOUa1QPyLODAy5JlvZTMeqfiyyrekX5knqXCsuChuQTR0XQrmx1Jd7-DTITysB2FF4oLV7jar-72TAXqDcCwmU_o5KH5UuZrSZ38B8Yld0cdC4uaUldbzum_XL712veTafjCoOomz0k21lzFz1hO3ByR9etqS1ZjyO1M2He_w HTTP/1.1" 200 32
+2019-11-29 17:29:51,345 - INFO: -----新的userid--：liebao_20191129172950
+2019-11-29 17:29:51,346 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:29:51,346 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:29:51,346 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:29:51,346 - INFO: std_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:30:42,302 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-29 17:30:42,997 - INFO: init base api interface
+2019-11-29 17:30:42,997 - INFO: init member managment API
+2019-11-29 17:30:42,998 - INFO: -----email后缀--:gzdev2.com
+2019-11-29 17:30:42,998 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-29 17:30:42,998 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-29 17:30:43,004 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:30:43,869 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-29 17:30:43,875 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:30:44,363 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=wC8mCTNG24Ex8_scq_Mp0m2JoZvnMpXnoVUluesNb3PwjSOUa1QPyLODAy5JlvZTMeqfiyyrekX5knqXCsuChuQTR0XQrmx1Jd7-DTITysB2FF4oLV7jar-72TAXqDcCwmU_o5KH5UuZrSZ38B8Yld0cdC4uaUldbzum_XL712veTafjCoOomz0k21lzFz1hO3ByR9etqS1ZjyO1M2He_w HTTP/1.1" 200 32
+2019-11-29 17:30:44,365 - INFO: -----新的userid--：liebao_20191129173042
+2019-11-29 17:30:44,365 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:30:44,366 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:30:44,366 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:30:44,366 - INFO: std_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:52:39,023 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-29 17:52:39,524 - INFO: init base api interface
+2019-11-29 17:52:39,524 - INFO: init member managment API
+2019-11-29 17:52:39,698 - INFO: -----email后缀--:gzdev2.com
+2019-11-29 17:52:39,699 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-29 17:52:39,699 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-29 17:52:39,705 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:52:40,579 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-29 17:52:40,585 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:52:41,091 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=wC8mCTNG24Ex8_scq_Mp0m2JoZvnMpXnoVUluesNb3PwjSOUa1QPyLODAy5JlvZTMeqfiyyrekX5knqXCsuChuQTR0XQrmx1Jd7-DTITysB2FF4oLV7jar-72TAXqDcCwmU_o5KH5UuZrSZ38B8Yld0cdC4uaUldbzum_XL712veTafjCoOomz0k21lzFz1hO3ByR9etqS1ZjyO1M2He_w HTTP/1.1" 200 32
+2019-11-29 17:52:41,093 - INFO: -----新的userid--：liebao_20191129175239
+2019-11-29 17:52:41,116 - INFO: init base api interface
+2019-11-29 17:52:41,116 - INFO: init member managment API
+2019-11-29 17:55:58,326 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-29 17:55:58,834 - INFO: init base api interface
+2019-11-29 17:55:58,834 - INFO: init member managment API
+2019-11-29 17:55:58,940 - INFO: -----email后缀--:gzdev2.com
+2019-11-29 17:55:58,941 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-29 17:55:58,941 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-29 17:55:58,945 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:55:59,847 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-29 17:55:59,853 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:56:00,338 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=wC8mCTNG24Ex8_scq_Mp0m2JoZvnMpXnoVUluesNb3PwjSOUa1QPyLODAy5JlvZTMeqfiyyrekX5knqXCsuChuQTR0XQrmx1Jd7-DTITysB2FF4oLV7jar-72TAXqDcCwmU_o5KH5UuZrSZ38B8Yld0cdC4uaUldbzum_XL712veTafjCoOomz0k21lzFz1hO3ByR9etqS1ZjyO1M2He_w HTTP/1.1" 200 32
+2019-11-29 17:56:00,340 - INFO: -----新的userid--：liebao_20191129175558
+2019-11-29 17:56:00,341 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:56:00,341 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:56:00,342 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:56:00,342 - INFO: std_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:56:00,344 - INFO: init base api interface
+2019-11-29 17:56:00,344 - INFO: init member managment API
+2019-11-29 17:58:03,290 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-29 17:58:03,738 - INFO: init base api interface
+2019-11-29 17:58:03,738 - INFO: init member managment API
+2019-11-29 17:58:03,843 - INFO: -----email后缀--:gzdev2.com
+2019-11-29 17:58:03,843 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-29 17:58:03,843 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-29 17:58:03,848 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:58:04,692 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-29 17:58:04,698 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:58:05,162 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=wC8mCTNG24Ex8_scq_Mp0m2JoZvnMpXnoVUluesNb3PwjSOUa1QPyLODAy5JlvZTMeqfiyyrekX5knqXCsuChuQTR0XQrmx1Jd7-DTITysB2FF4oLV7jar-72TAXqDcCwmU_o5KH5UuZrSZ38B8Yld0cdC4uaUldbzum_XL712veTafjCoOomz0k21lzFz1hO3ByR9etqS1ZjyO1M2He_w HTTP/1.1" 200 32
+2019-11-29 17:58:05,164 - INFO: -----新的userid--：liebao_20191129175803
+2019-11-29 17:58:05,165 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:58:05,165 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:58:05,165 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:58:05,165 - INFO: std_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:58:05,167 - INFO: init base api interface
+2019-11-29 17:58:05,167 - INFO: init member managment API
+2019-11-29 17:58:05,184 - INFO: -----email后缀--:gzdev2.com
+2019-11-29 17:58:05,184 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-29 17:58:05,184 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-29 17:58:05,187 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:58:05,464 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-29 17:58:05,469 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:58:05,975 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=wC8mCTNG24Ex8_scq_Mp0m2JoZvnMpXnoVUluesNb3PwjSOUa1QPyLODAy5JlvZTMeqfiyyrekX5knqXCsuChuQTR0XQrmx1Jd7-DTITysB2FF4oLV7jar-72TAXqDcCwmU_o5KH5UuZrSZ38B8Yld0cdC4uaUldbzum_XL712veTafjCoOomz0k21lzFz1hO3ByR9etqS1ZjyO1M2He_w HTTP/1.1" 200 32
+2019-11-29 17:58:05,978 - INFO: -----新的userid--：xiaoai_20191129175805
+2019-11-29 17:58:05,978 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:58:05,978 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:58:05,978 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:58:05,978 - INFO: std_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:58:58,797 - INFO: -----------------start to excute automation cases------------------------------------
+2019-11-29 17:58:59,327 - INFO: init base api interface
+2019-11-29 17:58:59,327 - INFO: init member managment API
+2019-11-29 17:58:59,433 - INFO: -----email后缀--:gzdev2.com
+2019-11-29 17:58:59,433 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-29 17:58:59,433 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-29 17:58:59,439 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:59:00,456 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-29 17:59:00,462 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:59:00,934 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=wC8mCTNG24Ex8_scq_Mp0m2JoZvnMpXnoVUluesNb3PwjSOUa1QPyLODAy5JlvZTMeqfiyyrekX5knqXCsuChuQTR0XQrmx1Jd7-DTITysB2FF4oLV7jar-72TAXqDcCwmU_o5KH5UuZrSZ38B8Yld0cdC4uaUldbzum_XL712veTafjCoOomz0k21lzFz1hO3ByR9etqS1ZjyO1M2He_w HTTP/1.1" 200 32
+2019-11-29 17:59:00,936 - INFO: -----新的userid--：liebao_20191129175859
+2019-11-29 17:59:00,936 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:59:00,937 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:59:00,937 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:59:00,937 - INFO: std_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:59:00,939 - INFO: init base api interface
+2019-11-29 17:59:00,940 - INFO: init member managment API
+2019-11-29 17:59:00,955 - INFO: -----email后缀--:gzdev2.com
+2019-11-29 17:59:00,955 - INFO: param{'corpid': 'ww9db5398ae0670287', 'corpsecret': 'rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk'}
+2019-11-29 17:59:00,955 - INFO: token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-11-29 17:59:00,958 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:59:01,265 - DEBUG: https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww9db5398ae0670287&corpsecret=rjGnaO2DrF-dUVycJOd7QzoikdKKXzBVG8vUi8lSNSk HTTP/1.1" 200 277
+2019-11-29 17:59:01,270 - DEBUG: Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-11-29 17:59:01,840 - DEBUG: https://qyapi.weixin.qq.com:443 "POST /cgi-bin/user/create?access_token=wC8mCTNG24Ex8_scq_Mp0m2JoZvnMpXnoVUluesNb3PwjSOUa1QPyLODAy5JlvZTMeqfiyyrekX5knqXCsuChuQTR0XQrmx1Jd7-DTITysB2FF4oLV7jar-72TAXqDcCwmU_o5KH5UuZrSZ38B8Yld0cdC4uaUldbzum_XL712veTafjCoOomz0k21lzFz1hO3ByR9etqS1ZjyO1M2He_w HTTP/1.1" 200 32
+2019-11-29 17:59:01,843 - INFO: -----新的userid--：xiaoai_20191129175900
+2019-11-29 17:59:01,843 - DEBUG: 预期结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:59:01,844 - DEBUG: 实际结果:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:59:01,844 - INFO: live_json:{'errcode': 0, 'errmsg': 'created'}
+2019-11-29 17:59:01,844 - INFO: std_json:{'errcode': 0, 'errmsg': 'created'}
